@@ -2,6 +2,8 @@ import express from "express";
 import cors from "cors";   // ✅ Import cors
 import connectDB from "./config/db.js";
 import bookRoutes from "./routes/bookRoutes.js"; // ✅ make sure casing matches actual file
+import dotenv from "dotenv";
+dotenv.config();
 
 const app = express();
 connectDB();
