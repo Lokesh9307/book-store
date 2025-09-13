@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://book-store-1-i3yw.onrender.com/api";
 
 export async function fetchBooks(params = {}) {
   const query = new URLSearchParams(params).toString();

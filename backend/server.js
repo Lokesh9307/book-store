@@ -1,7 +1,7 @@
 import express from "express";
-import cors from "cors";   // ✅ Import cors
+import cors from "cors";  
 import connectDB from "./config/db.js";
-import bookRoutes from "./routes/bookRoutes.js"; // ✅ make sure casing matches actual file
+import bookRoutes from "./routes/bookRoutes.js"; 
 import dotenv from "dotenv";
 dotenv.config();
 
